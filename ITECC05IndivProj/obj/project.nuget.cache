@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "viDGYliLlM8=",
+  "dgSpecHash": "E3fco73ghjM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\khurt andrei\\Source\\Repos\\ITECC05IndivProj\\ITECC05IndivProj\\ITECC05IndivProj.vbproj",
+  "projectFilePath": "C:\\Users\\khurt andrei\\Source\\Repos\\ITECC05IndivProj1\\ITECC05IndivProj\\ITECC05IndivProj.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\khurt andrei\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\khurt andrei\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

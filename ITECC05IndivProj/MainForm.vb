@@ -20,7 +20,7 @@ Public Class MainForm
         Try
             conn.Open()
             Dim Query As String
-            Query = "INSERT INTO testdatabase.Data (EID,firstname,lastname,age,gender,DateOfBirth) Values ('" & txtbox_eid.Text & "' ,'" & txtbox_firstname.Text & "' ,'" & txtbox_lastname.Text & "' ,'" & txtbox_age.Text & "','" & gender & "','" & datepicker_dob.Text & ")"
+            Query = "INSERT INTO testdatabase.Data (EID,firstname,lastname,age,gender,DateOfBirth) Values ('" & txtbox_eid.Text & "' ,'" & txtbox_firstname.Text & "' ,'" & txtbox_lastname.Text & "' ,'" & txtbox_age.Text & "','" & gender & "','" & datepicker_dob.Text & "')"
             COMMAND = New MySqlCommand(Query, conn)
             READER = COMMAND.ExecuteReader
             MessageBox.Show("Data Saved")
@@ -56,14 +56,17 @@ Public Class MainForm
         Try
             conn.Open()
             Dim Query As String
-            Query = "Update testdatabase.Data SET EID= '" & txtbox_eid.Text & "' ,firstname='" & txtbox_firstname.Text & "' ,lastname='" & txtbox_lastname.Text & "' ,age='" & txtbox_age.Text & "' where eid='" & txtbox_eid.Text & "'"
+            Query = "Delete from testdatabase.Data where EID= '" & txtbox_eid.Text & "'"
             COMMAND = New MySqlCommand(Query, conn)
             READER = COMMAND.ExecuteReader
             MessageBox.Show("Data deleted")
             conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
-            conn.Close()
+
+        Finally
+            conn.Dispose()
+
         End Try
     End Sub
 
@@ -221,4 +224,7 @@ Public Class MainForm
         gender = "female"
     End Sub
 
+    Private Sub datepicker_dob_ValueChanged(sender As Object, e As EventArgs) Handles datepicker_dob.ValueChanged
+
+    End Sub
 End Class

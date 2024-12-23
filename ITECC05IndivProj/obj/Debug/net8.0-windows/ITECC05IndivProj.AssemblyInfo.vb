@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("ITECC05IndivProj"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b71e9df9ace97ebc2deb23ae4e175e182740594f"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2fa73ad28601d7ac5e627feba62e73d3bbb3fc4"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("ITECC05IndivProj"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("ITECC05IndivProj"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

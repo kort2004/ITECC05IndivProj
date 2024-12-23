@@ -34,7 +34,7 @@ Partial Class LoginForm
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 19.8000011F, FontStyle.Bold)
-        Label1.Location = New Point(68, 89)
+        Label1.Location = New Point(91, 89)
         Label1.Name = "Label1"
         Label1.Size = New Size(153, 37)
         Label1.TabIndex = 0
@@ -57,7 +57,7 @@ Partial Class LoginForm
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 19.8000011F, FontStyle.Bold)
-        Label2.Location = New Point(75, 170)
+        Label2.Location = New Point(98, 170)
         Label2.Name = "Label2"
         Label2.Size = New Size(146, 37)
         Label2.TabIndex = 2
@@ -94,7 +94,7 @@ Partial Class LoginForm
         ' 
         ' LoginForm
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(btn_connect)

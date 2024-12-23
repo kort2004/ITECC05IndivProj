@@ -1684,11 +1684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\khurt andrei\\Source\\Repos\\ITECC05IndivProj\\ITECC05IndivProj\\ITECC05IndivProj.vbproj",
+      "projectUniqueName": "C:\\Users\\khurt andrei\\Source\\Repos\\ITECC05IndivProj1\\ITECC05IndivProj\\ITECC05IndivProj.vbproj",
       "projectName": "ITECC05IndivProj",
-      "projectPath": "C:\\Users\\khurt andrei\\Source\\Repos\\ITECC05IndivProj\\ITECC05IndivProj\\ITECC05IndivProj.vbproj",
+      "projectPath": "C:\\Users\\khurt andrei\\Source\\Repos\\ITECC05IndivProj1\\ITECC05IndivProj\\ITECC05IndivProj.vbproj",
       "packagesPath": "C:\\Users\\khurt andrei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\khurt andrei\\Source\\Repos\\ITECC05IndivProj\\ITECC05IndivProj\\obj\\",
+      "outputPath": "C:\\Users\\khurt andrei\\Source\\Repos\\ITECC05IndivProj1\\ITECC05IndivProj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
